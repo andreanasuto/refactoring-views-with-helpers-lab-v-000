@@ -1,6 +1,6 @@
 module ArtistsHelper
 
-  def display_artist(artist)
+  def display_artist
     if artist_name
       link_to artist_path(artist)
     else
