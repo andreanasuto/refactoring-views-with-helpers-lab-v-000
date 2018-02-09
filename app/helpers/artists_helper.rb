@@ -1,4 +1,5 @@
 module ArtistsHelper
+  
   def display_artist(artist)
     if !artist_name
       link_to artist_path(artist)
